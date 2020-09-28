@@ -3,7 +3,7 @@
 ## Description
 This is a landing page for my programming portfolio.It contains my name,image and a list of projects that I have created with active links to them.More information is availed about my educational background,reasons behind me taking this programming classes,interests and hobbies
 ## project image
-[steve99-coder](./images/readme.png)
+![steve99-coder](./images/readme.png)
 ## Project setup instructions
 Click the link on my portfolio to get access to my projects.(https://github.com/Steve99-coder/mpft36-.git )
 The live links for the github pages are provided below the description,Click them and have a look at the Github pages.
