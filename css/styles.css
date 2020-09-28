@@ -1,0 +1,197 @@
+body{
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+section{
+    width: 100%;
+    height: 95vh;
+    background-image: url("../images/cover2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: burlywood;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: sans-serif;
+    color: skyblue;
+    font-size: 15px;
+    font-weight: 700;
+}
+.logo{
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    font-size: 20px;
+}
+.active{
+  font-weight: bold;
+  color: yellow;
+}
+.text-container p:nth-child(1){
+  font-family: cailibri;
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    font-size:30px;
+}
+.text-container p:nth-child(3){
+  font-family: calibri;
+  color: white;
+  font-size: 30px;
+  line-height: 30px;
+}
+.text-container p{
+  line-height: 0px;
+  margin: 45px 0px 25px;
+}
+.text-container{
+  position: absolute;
+  left: 13%;
+  top: 42%;
+  transform: translate(-13%,-42%);
+}
+.about-container{
+  width: 80%;
+  height: 500px;
+  background-color: white;
+  border-color: green;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(255, 0, 0, 0.5);
+  display: flex;
+  margin: -7% auto 20px auto;
+  position: relative;
+
+}
+.about-container img{
+  height: 200px;
+  width: 250px;
+}
+.bal{
+  height: 200px;
+}
+.about-text{
+  width: 1000px;
+}
+.about-text p:nth-child(1){
+  color: black;
+  font-weight: bold;
+  font-size:20px;
+  line-height: 10px;
+  font-family: sans-serif;
+}
+.about-text p:nth-child(2){
+  color: black;
+  font-weight: bold;
+  font-size:15px;
+  line-height: 10px;
+  font-family: sans-serif;
+}
+.about-text p:nth-child(4){
+  font-size: 17px;
+  color: black;
+  font-family: calibri;
+}
+.portfolio{
+  height: 1050px;
+  background-color: grey;
+  padding: 2% 10% 0px 10%;
+}
+.portfolio-text{
+  width: 400px;
+  margin: 50px 0px;
+}
+.portfolio-text img{
+  width: 200px;
+  height: 180px;
+}
+.contact-me{
+  width: 100%;
+  height: 150px;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-family: calibri;
+  font-weight: bold;
+
+}
+.contact-me button{
+  width: 120px;
+  height: 30px;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+.footer{
+  height: 300px;
+}
+.footer p{
+  font-family: calibri;
+  font-size: 15px;
+  font-weight: bold;
+}
+.icons a{
+  width:40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+.icons{
+  display: flex;
+}
+.fa{
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook{
+  background-color: blue;
+  color: white;
+}
+.fa-twitter{
+  background-color: skyblue;
+  color: white;
+}
+.fa-instagram{
+  background-color: orange;
+  color: white;
+}
